@@ -11,7 +11,11 @@ print("\n=== Exercise 2: Working with Numbers ===")
 age_string = input("How old are you? ")
 age = int(age_string)  # Convert string to integer
 print("You are", age, "years old")
+<<<<<<< HEAD
 
+=======
+print("Next year you will be", age + 1, "years old")
+>>>>>>> upstream/main
 
 # Exercise 3: Multiple Inputs
 print("\n=== Exercise 3: Multiple Inputs ===")
