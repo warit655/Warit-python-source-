@@ -24,12 +24,12 @@ if entered_pin == pin:
             print("Now You have ", balance)
             
         if choice =="2":
-            bike= flont(input("Withdraw amount:"))
+            bike= float (input("Withdraw amount:"))
             balance = balance - bike
             print("now you have", balance)
 
         if choice =="3":
-            deposit = flont(input("Deposit amount:"))
+            deposit = float (input("Deposit amount:"))
             balance = balance + deposit
             print("now you have", balance)
 else:
