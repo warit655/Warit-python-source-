@@ -1,6 +1,6 @@
 # Complete this ATM simulation
-balance = 1000
-pin = "1234"
+balance = 1000000000
+pin = "080632"
 
 entered_pin = input("Enter PIN: ")
 if entered_pin == pin:
