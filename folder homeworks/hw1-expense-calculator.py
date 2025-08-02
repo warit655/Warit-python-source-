@@ -1,6 +1,7 @@
 """
 Personal Finance Calculator
-Student: Phonphailin
+Student: warit
+
 Date: 30 July 2025
 Purpose: Calculate monthly budget and savings based on user input
 """
