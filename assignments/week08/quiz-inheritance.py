@@ -17,7 +17,7 @@ class Vehicle:
         return f"brand: {self.brand}, Moder: {self.model},Year: {self.year}"
 
 
-class Car(Vehicle):
+class Carr(Vehicle):
 
     def __init__(self, brand, model, year, number_of_doors):
         super().__init__(brand, model, year)  
@@ -26,6 +26,6 @@ class Car(Vehicle):
     def get_info(self):#overriding method
         return f"brand: {self.brand}, Moder: {self.model},Year: {self.year} , Number of Doors{self.number_of_doors}"
     
-    myCar = Car ("Toyota","suppra",2020,2)
-    print(myCar.get_info())
+myCar = Carr("Toyota","suppra",2020,2)
+print(myCar.get_info())
 
